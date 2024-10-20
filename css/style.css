@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+p {
+    display: inline-block;
+    width: 60px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: green;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+}
