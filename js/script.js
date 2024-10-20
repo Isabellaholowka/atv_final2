@@ -1,5 +1,5 @@
 document.getElementById('form').onsubmit = function(event) {
-    event.preventDefault(); // Não deixar a página recarregar
+    event.preventDefault();
 
     var nome = document.getElementById('nome').value;
     var email = document.getElementById('email').value;
