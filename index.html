@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro de Usuários</h1>
+    <form id="form">
+        <p>Nome:</p>
+        <input type="text" id="nome"><br>
+        
+        <p>E-mail:</p>
+        <input type="email" id="email"><br>
+        
+        <button type="submit">Cadastrar</button>
+    </form>
+    
+    <h2>Cadastros</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaCadastros">
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
